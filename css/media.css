@@ -1,0 +1,216 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 396px;
+  }
+
+  .fourth-section > .container {
+    max-width: 264px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  /*          HEADER          */
+
+  .header-menu {
+    display: flex;
+    /* gap: 40px; */
+  }
+
+  .header-address {
+    display: flex;
+  }
+
+  .mob-window {
+    display: none;
+  }
+
+  /*          MAIN - HERO         */
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-medium.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-medium-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    margin-bottom: 36px;
+    line-height: 1.07;
+  }
+
+  /*          FOUR PROS SECTION         */
+
+  .pros-list {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .pros {
+    gap: 72px 24px;
+    padding: 0;
+  }
+
+  .pros-list-title {
+    text-align: left;
+  }
+
+  /*          Our Team SECTION         */
+
+  .team-list {
+    gap: 64px 24px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-list-separate {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .fourth-section > .container {
+    max-width: 552px;
+    padding: 0;
+  }
+
+  /*          Customers SECTION         */
+
+  .customers-list-item {
+    width: calc((100% - 3 * 24px) / 2);
+    max-width: 168px;
+  }
+
+  .fifth-section > .container {
+    max-width: 552px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /*          HEADER          */
+
+  .header-menu {
+    display: flex;
+    /* gap: 40px; */
+  }
+
+  .header-address {
+    display: flex;
+  }
+
+  .mob-window {
+    display: none;
+  }
+
+  /*          MAIN - HERO         */
+
+  .hero {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /*          FOUR PROS SECTION         */
+
+  .pros-list {
+    width: calc((100% - 24px * 3) / 4);
+  }
+
+  .box {
+    display: block;
+  }
+
+  .second-section {
+    padding: 120px 0;
+  }
+
+  .pros-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .pros-list-text {
+    font-weight: 400;
+  }
+
+  /*          Our Team SECTION         */
+
+  .fourth-section {
+    padding: 120px 0;
+  }
+
+  .team-list-separate {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .fourth-section > .container {
+    max-width: 1128px;
+    padding: 0;
+  }
+
+  /*          What are we doing SECTION         */
+
+  .third-section {
+    display: flex;
+  }
+
+  /*          Customers SECTION         */
+  .fifth-section {
+    padding: 120px 0;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 6 * 24px) / 5);
+    max-width: 168px;
+  }
+
+  .fifth-section > .container {
+    min-width: 1128px;
+    padding-left: 0;
+  }
+}

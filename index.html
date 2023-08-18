@@ -20,6 +20,7 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
 
   <body>
@@ -66,6 +67,93 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-button" data-menu-open>
+          0
+          <svg class="icon-charm-menu-hamburger" width="32" height="22">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-window is-hidden" data-menu>
+        <div>
+          <button type="button" class="mob-window-button" data-menu-close>
+            <svg class="mob-menu-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-Vector-2"></use>
+            </svg>
+          </button>
+          <ul class="window-menu list">
+            <li class="window-menu-item">
+              <a class="window-item-link link current" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="window-menu-item">
+              <a class="window-item-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="window-menu-item">
+              <a class="window-item-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <address class="window-address">
+            <ul class="window-address-list list">
+              <li class="window-list-item">
+                <a
+                  class="window-address-link-email link"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="window-list-item">
+                <a
+                  class="window-address-link-tel link"
+                  href="tel:+110001111111"
+                >
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+
+          <ul class="window-social">
+            <li class="circle-footer">
+              <a class="circle-footer-link" href="">
+                <svg class="circle-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="circle-footer">
+              <a class="circle-footer-link" href="">
+                <svg class="circle-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="circle-footer">
+              <a class="circle-footer-link" href="">
+                <svg class="circle-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="circle-footer">
+              <a class="circle-footer-link" href="">
+                <svg class="circle-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -560,5 +648,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
