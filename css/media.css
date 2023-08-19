@@ -1,7 +1,7 @@
 @media screen and (min-width: 428px) {
-  .container {
+  /* .container {
     max-width: 396px;
-  }
+  } */
 
   .fourth-section > .container {
     max-width: 264px;
@@ -10,22 +10,54 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 736px;
-  }
+  } */
 
   /*          HEADER          */
 
+  /* .header-container {
+    justify-content: space-between;
+  } */
+
   .header-menu {
     display: flex;
+    margin-left: 120px;
     /* gap: 40px; */
+  }
+
+  .current::after {
+    display: flex;
   }
 
   .header-address {
     display: flex;
   }
 
+  .header-address-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-address-link {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+  }
+
+  .header-item-link {
+    display: inline;
+  }
+
+  .header-list-item {
+    padding: 0;
+  }
+
   .mob-window {
+    display: none;
+  }
+
+  .menu-open-button {
     display: none;
   }
 
@@ -101,6 +133,44 @@
     max-width: 552px;
     padding: 0;
   }
+
+  /*          FOOTER         */
+
+  .footer-container {
+    max-width: 552px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 72px 24px;
+  }
+
+  .webstudio {
+    margin: 0;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+
+  .social-media {
+    margin: 0;
+  }
+
+  .social-media-text {
+    text-align: left;
+  }
+
+  .footer-subscribe {
+    margin: 0;
+  }
+
+  .footer-form {
+    flex-direction: row;
+  }
+
+  .footer-subscribe-text {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -112,11 +182,17 @@
 
   .header-menu {
     display: flex;
+    margin-left: 76px;
     /* gap: 40px; */
   }
 
   .header-address {
     display: flex;
+  }
+
+  .header-address-list {
+    flex-direction: row;
+    gap: 40px;
   }
 
   .mob-window {
@@ -212,5 +288,24 @@
   .fifth-section > .container {
     min-width: 1128px;
     padding-left: 0;
+  }
+
+  /*          FOOTER         */
+
+  .footer-container {
+    max-width: 1128px;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 0;
+    /* padding: 0;
+    gap: 72px 24px; */
+  }
+
+  .webstudio {
+    margin-right: 120px;
+  }
+
+  .social-media {
+    margin-right: 80px;
   }
 }
